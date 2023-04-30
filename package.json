@@ -1,0 +1,18 @@
+{
+  "name": "com.scg.utils",
+  "version": "0.0.1",
+  "displayName": "SCG Utilities",
+  "description": "Contains Helpful Functions",
+  "unity": "2022.2",
+    "dependencies": {
+    "com.unity.addressables": "1.8.5"
+  },
+  "keywords": [
+    "scg"
+  ],
+  "author": {
+    "name": "Space Castle Games",
+    "email": "spacecastlegames@gmail.com",
+    "url": "https://www.spacecastlegames.ca"
+  }
+}
