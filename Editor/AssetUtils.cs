@@ -41,7 +41,7 @@ namespace scg.utils.editor
 
         public static T GetOrCreateAsset<T>(string createPath) where T : ScriptableObject
         {
-            return GetOrCreateAsset<T>(createPath, typeof(T).Name);
+            return GetOrCreateAsset<T>(createPath, typeof(T).Name+".asset");
         }
 
         public static T GetOrCreateAsset<T>(string createPath, string assetName) where T : ScriptableObject
